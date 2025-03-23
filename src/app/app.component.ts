@@ -7,8 +7,8 @@ import { DisplayContactInfoComponent } from '../shared/projects/shared/src/lib/c
 import { RouterOutlet } from '@angular/router';
 import { ModalWindowComponent } from '../shared/projects/shared/src/lib/components/modal-window/modal-window.component';
 
-import { HasPermissionDirective } from './directives/permission.directive';
-import { PermissionService } from './services/permission.service';
+import { HasPermissionDirective } from '../shared/projects/shared/src/lib/directives/permission.directive';
+import { PermissionService } from '../shared/projects/shared/src/lib/services/permission.service';
 
 @Component({
   selector: 'app-root',

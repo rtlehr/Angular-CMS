@@ -1,4 +1,4 @@
-import { ConfigService } from './services/config.service';
+import { ConfigService } from '../shared/projects/shared/src/lib/services/config.service';
 
 export function appInitializer(configService: ConfigService): () => Promise<void> {
   return () =>

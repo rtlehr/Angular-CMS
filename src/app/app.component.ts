@@ -1,18 +1,14 @@
 import { Component, HostListener } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
-import { HeaderMenuComponent } from './components/header-menu/header-menu.component';
-import { DisplayLogoComponent } from './components/display-logo/display-logo.component';
-import { DisplayContactInfoComponent } from './components/display-contact-info/display-contact-info.component';
+import { HeaderMenuComponent } from '../shared/projects/shared/src/lib/components/header-menu/header-menu.component';
+import { DisplayLogoComponent } from '../shared/projects/shared/src/lib/components/display-logo/display-logo.component';
+import { DisplayContactInfoComponent } from '../shared/projects/shared/src/lib/components/display-contact-info/display-contact-info.component';
 import { RouterOutlet } from '@angular/router';
-import { ModalWindowComponent } from './components/modal-window/modal-window.component';
+import { ModalWindowComponent } from '../shared/projects/shared/src/lib/components/modal-window/modal-window.component';
 
 import { HasPermissionDirective } from './directives/permission.directive';
 import { PermissionService } from './services/permission.service';
-
-import { EditorComponent } from './components/html-content/editor/editor.component';
-
-import { ContentWithMenuComponent } from './components/contentDisplay/content-with-menu/content-with-menu.component';
 
 @Component({
   selector: 'app-root',
@@ -24,8 +20,6 @@ import { ContentWithMenuComponent } from './components/contentDisplay/content-wi
     RouterOutlet,
     ModalWindowComponent,
     HasPermissionDirective,
-    EditorComponent,
-    ContentWithMenuComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',

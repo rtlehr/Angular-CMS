@@ -1,11 +1,10 @@
 import { Routes } from '@angular/router';
-import { PageGeneratorComponent } from './components/contentDisplay/page-generator/page-generator.component';
-import { BlogListComponent } from './components/blog/blog-list/blog-list.component';
-import { ContentWithSideMenuComponent } from './components/contentDisplay/content-with-side-menu/content-with-side-menu.component';
-import { ContentBlankPageComponent } from './components/contentDisplay/content-blank-page/content-blank-page.component';
-import { LoginComponent } from './components/login/login.component';
-import { HtmlEditorComponent } from './components/html-content/html-editor/html-editor.component';
-import { ContentWithMenuComponent } from './components/contentDisplay/content-with-menu/content-with-menu.component';
+import { PageGeneratorComponent } from '../shared/projects/shared/src/lib/components/contentDisplay/page-generator/page-generator.component';
+import { BlogListComponent } from '../shared/projects/shared/src/lib/components/blog/blog-list/blog-list.component';
+import { ContentBlankPageComponent } from '../shared/projects/shared/src/lib/components/contentDisplay/content-blank-page/content-blank-page.component';
+import { LoginComponent } from '../shared/projects/shared/src/lib/components/login/login.component';
+import { HtmlEditorComponent } from '../shared/projects/shared/src/lib/components/html-content/html-editor/html-editor.component';
+import { ContentWithMenuComponent } from '../shared/projects/shared/src/lib/components/contentDisplay/content-with-menu/content-with-menu.component';
 import { PromptBuilderComponent } from './components/prompt-builder/prompt-builder.component';
 
 export const routes: Routes = [
